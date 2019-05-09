@@ -23,7 +23,12 @@
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Core package shared by API layer and Microservices</description>
     <url>https://github.com/capitalone/Hygieia</url>
-
+<pluginRepositories>
+  <pluginRepository>
+    <id>jcenter</id>
+    <url>https://jcenter.bintray.com</url>
+  </pluginRepository>
+</pluginRepositories>
     <organization>
         <name>Capital One</name>
         <url>http://www.capitalone.com</url>
